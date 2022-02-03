@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Hotjar App
+          Hotjar Application
         </p>
       </header>
     </div>
