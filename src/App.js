@@ -1,5 +1,5 @@
 import './App.css';
-import { hotjar } from 'react-hotjar'
+import { hotjar } from 'react-hotjar';
 import { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Details from './Details';

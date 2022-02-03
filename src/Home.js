@@ -1,11 +1,13 @@
 import './App.css';
 import { useNavigate } from "react-router-dom";
+import { hotjar } from 'react-hotjar';
 
 function Home() {
   const navigate = useNavigate();
   
   const redirectToDetails = () => {
     navigate("/details");
+    hotjar.event('button-click')
   }
   return (
     <div className="App">
