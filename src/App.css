@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -28,11 +29,35 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  background-color: #61dafb;
+  padding: 10px 32px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sign-up {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+.subscribe {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+.search {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+}
+
+.about-us {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
 }
